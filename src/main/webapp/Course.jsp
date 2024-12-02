@@ -66,7 +66,7 @@
     %>
     <div class="course-card">
         <h3><%= course.getName() %></h3>
-        <form action="modul.jsp" method="GET">
+        <form action="modul.jsp" >
             <input type="hidden" name="courseId" value="<%= course.getId() %>">
             <button type="submit">Kirish</button>
         </form>
